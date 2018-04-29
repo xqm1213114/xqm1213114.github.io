@@ -1,0 +1,16 @@
+<html>
+      <head>
+             <title>4.23</title>
+      </head>
+      <body>
+          <h1>BaiDu</h1>
+          <div><a href="javascript:popUp('https://www.baidu.com/');">baidu1</a></div>
+          <div><a href="#" onclick="popUp('https://www.baidu.com'); return false;">baidu2</a></div>
+          <div><a href="https://www.baidu.com/" onclick="popUp(this.href); return false;">baidu3</a></div>
+      <script>
+      function popUp (winURL){
+             window.open(winURL,"popUp","winth=320,height=480");
+             }
+      </script>
+      </body>
+</html>
